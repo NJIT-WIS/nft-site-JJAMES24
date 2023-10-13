@@ -121,3 +121,22 @@ align-items: flex-start;
 margin-top: 10rem;
 margin-bottom: 1em;
 }
+
+.featued-header h2 {
+text-align: left;
+margin-bottom: 20px;
+
+}
+
+.image-container {
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+ width: 100%;
+    }
+
+.image-container ing {
+max-width: 100%;
+height: auto;
+}
