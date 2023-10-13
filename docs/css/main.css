@@ -104,3 +104,11 @@ margin-right: auto;
 
     width:58rem;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+   
+    }
