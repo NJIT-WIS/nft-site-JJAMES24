@@ -138,7 +138,7 @@ test('Check All Testimonials', async ({ page }) => {
 });
 
 test('Check All Footer Links', async ({ page }) => {
-  const footerLinks = await page.locator('.footer-link');
+  const footerLinks = await page.locator('.column');
   const count = await footerLinks.count();
 
   for (let i = 0; i < count; i++) {
@@ -148,7 +148,7 @@ test('Check All Footer Links', async ({ page }) => {
 });
 
 test('Check All Footer Icons', async ({ page }) => {
-  const footerIcons = await page.locator('.footer-link i');
+  const footerIcons = await page.locator('.column');
   const count = await footerIcons.count();
 
   for (let i = 0; i < count; i++) {
