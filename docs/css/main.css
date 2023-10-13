@@ -1,0 +1,86 @@
+:root{
+
+    --background-color:  #000235;
+    --base-link-color:white;
+    --primary-color:white;
+    --secondary-color:white;
+    --accent-color:#555;
+    --testimonial-color:rgba(178,162,222,1);
+
+
+    --font-primary:"Roboto", sans-serif;
+    --font-secondary: 'Outfit', sans-serif;
+
+    --base-font-size: 1rem;
+    --h1-font-size: 4rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.5rem;
+    --h4-font-size: 1.25rem;
+
+}
+
+body{
+background: var(--background-color);
+color: white;
+font: var(--base-font-size) / 1.6 var(--font-primary);
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+
+    font-family: var(--font-primary);
+    text-transform: capitalize;
+
+
+}
+
+a {
+
+    font-family: var(--font-primary); 
+    color: var(base-link-color); 
+    text-decoration: none;
+
+}
+
+a :hover{
+
+    text-decoration: underline;
+}
+
+main{
+max-width: 1440px;
+margin: 0 auto;
+
+}
+
+header{
+display:flex;
+align-items: center;
+line-height: 4rem;
+font-size: 1.25rem;
+
+
+
+}
+
+.logo{
+margin-right: auto;
+
+}
+
+.menu{
+
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 33.33%;
+    gap: 38px;
+}
+.menu-item{
+    text-align: right;
+}
+
